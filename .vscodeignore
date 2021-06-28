@@ -4,6 +4,7 @@ out/test/**
 
 src/**
 pack/**
+docs/**
 .gitignore
 .yarnrc
 .editorconfig
