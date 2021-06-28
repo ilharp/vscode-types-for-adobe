@@ -1,0 +1,28 @@
+{
+  "name": "vscode-extendscript-pack",
+  "displayName": "ExtendScript Development Pack",
+  "description": "Development Pack for Adobe ExtendScript.",
+  "version": "0.1.0",
+  "author": "Il Harper <afanyiyu@hotmail.com>",
+  "publisher": "il-harper",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "license": "See LICENSE",
+  "homepage": "https://github.com/Afanyiyu/vscode-types-for-adobe/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/Afanyiyu/vscode-types-for-adobe/issues",
+    "email": "afanyiyu@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Afanyiyu/vscode-types-for-adobe.git"
+  },
+  "extensionPack": [
+    "Adobe.extendscript-debug",
+    "il-harper.vscode-types-for-adobe"
+  ]
+}
