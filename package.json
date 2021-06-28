@@ -22,7 +22,15 @@
         "title": "Set-Up Types for Adobe",
         "category": "Types for Adobe"
       }
-    ]
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "vscode-types-for-adobe.set-up",
+          "when": "editorLangId == javascript || editorLangId == javascriptreact || editorLangId == typescript || editorLangId == typescriptreact"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
