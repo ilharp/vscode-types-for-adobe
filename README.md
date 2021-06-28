@@ -2,6 +2,8 @@
 
 Use [Types-for-Adobe](https://github.com/bbb999/Types-for-Adobe) in Visual Studio Code. No need for Node.js, TypeScript or Git.
 
+![Demo](https://cdn.jsdelivr.net/gh/Afanyiyu/vscode-types-for-adobe@master/docs/demo.gif)
+
 ## Features
 
 Automatic add type definitions for Adobe ExtendScripts in your workspace.
