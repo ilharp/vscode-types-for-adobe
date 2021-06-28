@@ -2,7 +2,7 @@ import { defaultTypesDir } from './typesResolver'
 
 export function processConfig(
   /* eslint-disable-next-line */
-  name: string,
+  _name: string,
   content: string,
   productDir: string
 ): string | undefined {
