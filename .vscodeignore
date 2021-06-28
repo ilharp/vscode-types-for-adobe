@@ -3,10 +3,13 @@
 out/test/**
 
 src/**
+pack/**
 .gitignore
 .yarnrc
+.editorconfig
 vsc-extension-quickstart.md
 **/tsconfig.json
-**/.eslintrc.json
+**/.eslintrc.js
+**/.prettierrc.js
 **/*.map
 **/*.ts
