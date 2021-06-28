@@ -4,12 +4,25 @@
   "description": "Types-for-Adobe in Visual Studio Code.",
   "version": "0.1.0",
   "author": "Il Harper <afanyiyu@hotmail.com>",
+  "publisher": "il-harper",
   "engines": {
-    "vscode": "^1.57.0"
+    "vscode": "^1.52.0"
   },
   "categories": [
+    "Linters",
+    "Programming Languages",
     "Other"
   ],
+  "license": "See LICENSE",
+  "homepage": "https://github.com/Afanyiyu/vscode-types-for-adobe/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/Afanyiyu/vscode-types-for-adobe/issues",
+    "email": "afanyiyu@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Afanyiyu/vscode-types-for-adobe.git"
+  },
   "activationEvents": [
     "onCommand:vscode-types-for-adobe.set-up"
   ],
@@ -42,20 +55,20 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.57.0",
     "@types/glob": "^7.1.3",
     "@types/mocha": "^8.2.2",
     "@types/node": "14.x",
-    "eslint": "^7.27.0",
+    "@types/vscode": "^1.52.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
-    "glob": "^7.1.7",
-    "mocha": "^8.4.0",
-    "typescript": "^4.3.2",
-    "vscode-test": "^1.5.2",
+    "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.2"
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
   },
   "dependencies": {
     "types-for-adobe": "^6.0.1"
