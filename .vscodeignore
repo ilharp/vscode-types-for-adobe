@@ -13,3 +13,5 @@ vsc-extension-quickstart.md
 **/.prettierrc.js
 **/*.map
 **/*.ts
+
+!node_modules/types-for-adobe
