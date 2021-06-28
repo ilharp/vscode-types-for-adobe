@@ -11,14 +11,16 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vscode-types-for-adobe.helloWorld"
+    "onCommand:vscode-types-for-adobe.set-up"
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "title": "Types for Adobe",
     "commands": [
       {
-        "command": "vscode-types-for-adobe.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-types-for-adobe.set-up",
+        "title": "Set-Up Types for Adobe",
+        "category": "Types for Adobe"
       }
     ]
   },
@@ -27,6 +29,7 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
+    "deploy": "vsce publish",
     "lint": "eslint src --ext .js,.ts,.json --ignore-path .gitignore --fix",
     "test": "node ./out/test/runTest.js"
   },
