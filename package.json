@@ -2,7 +2,7 @@
   "name": "vscode-types-for-adobe",
   "displayName": "Types for Adobe",
   "description": "Types-for-Adobe in Visual Studio Code.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Il Harper <afanyiyu@hotmail.com>",
   "publisher": "il-harper",
   "engines": {
