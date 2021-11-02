@@ -40,7 +40,7 @@
       "commandPalette": [
         {
           "command": "vscode-types-for-adobe.set-up",
-          "when": "editorLangId == javascript || editorLangId == javascriptreact || editorLangId == typescript || editorLangId == typescriptreact"
+          "when": "editorLangId == javascript || editorLangId == javascriptreact || editorLangId == typescript || editorLangId == typescriptreact || editorLangId == jsx"
         }
       ]
     }
